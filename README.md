@@ -2,6 +2,8 @@
 
 The Balloon Festival Booking System is an online platform designed to facilitate ticket reservations for balloon festivals. It allows users to browse available events, book tickets, and manage their reservations conveniently.
 
+Note!: This project is currently in development, and this is only the first working version. Future updates will include additional features and improvements.
+
 ## How to run project
 
 Install Dependencies 
@@ -33,3 +35,4 @@ Start the Development Server
 ```bash
 php artisan serve
 ```
+
