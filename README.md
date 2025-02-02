@@ -24,6 +24,11 @@ Generate Application Key
 php artisan key:generate
 ```
 
+Create the symbolic link to files
+```bash
+php artisan storage:link
+```
+
 Run Migrations
 ```bash
 php artisan migrate
@@ -32,11 +37,6 @@ php artisan migrate
 Install and Build Frontend
 ```bash
 npm run build
-```
-
-Create the symbolic link to files
-```bash
-php artisan storage:link
 ```
 
 Start the Development Server
