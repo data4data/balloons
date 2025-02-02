@@ -4,6 +4,7 @@ The Balloon Festival Booking System is an online platform designed to facilitate
 
 Note!: This project is currently in development, and this is only the first working version. Future updates will include additional features and improvements.
 
+
 ## How to run project
 
 Install Dependencies 
@@ -23,6 +24,11 @@ Generate Application Key
 php artisan key:generate
 ```
 
+Create the symbolic link to files
+```bash
+php artisan storage:link
+```
+
 Run Migrations
 ```bash
 php artisan migrate
@@ -31,11 +37,6 @@ php artisan migrate
 Install and Build Frontend
 ```bash
 npm run build
-```
-
-Create the symbolic link to files
-```bash
-php artisan storage:link
 ```
 
 Start the Development Server
