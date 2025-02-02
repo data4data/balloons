@@ -12,6 +12,7 @@ Install Dependencies
 composer install
 npm install
 ```
+
 Copy Environment File
 ```bash
 cp .env.example .env
@@ -26,13 +27,18 @@ Run Migrations
 ```bash
 php artisan migrate
 ```
+
 Install and Build Frontend
 ```bash
 npm run build
+```
+
+Create the symbolic link to files
+```bash
+php artisan storage:link
 ```
 
 Start the Development Server
 ```bash
 php artisan serve
 ```
-
